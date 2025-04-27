@@ -1,5 +1,3 @@
-!pip install nba_api
-
 from nba_api.stats.static import players #importing players
 from nba_api.stats.endpoints import commonplayerinfo #importing player info
 from nba_api.stats.endpoints import playercareerstats #importing player stats
