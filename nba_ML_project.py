@@ -36,8 +36,6 @@ removed_full_names = df.loc[:,'id':'last_name'] #NOT USED - just showing its abl
 
 active_players_ids = df.loc[:, 'id'].to_list() #: means its choosing all the rows
 
-active_players_ids
-
 #creating a function that gets player info data, ultimately letting us get the player heights
 
 def get_player_info(nba_player_id):
@@ -74,8 +72,6 @@ reseted_player_info = final_df_player_info_cleaned.reset_index(drop=True) #Drop=
 active_players_ids = reseted_player_info['PERSON_ID'] #taking the player ids from the dataframe, and setting them to the active_player_ids, so that it is easy to get the right game stats now, with removed duplicated and undrafted players!
 
 heights_df = reseted_player_info.loc[:,"HEIGHT"] #getting the heights
-
-heights_df
 
 #getting the player STATS
 
