@@ -13,5 +13,5 @@ pip install pandas
 pip install numpy
 pip install matplotlib
 pip install statsmodels
-
-View the full Medium blog here: 
+```
+View the full Medium blog here: https://medium.com/@genzarjun/utilizing-ml-for-predicting-how-height-affects-nba-performance-0ecba2b7aff7
